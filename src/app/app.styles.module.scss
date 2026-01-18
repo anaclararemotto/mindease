@@ -1,7 +1,19 @@
-@use './styles/mixins';
-@use './styles/abstract/theme';
+@use './styles/mixins' as *;
+@use './styles/abstract/variables' as *;
+@use './styles/abstract/theme' as *;
 
-.title {
-  @include mixins.text-display;
+.header{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-bottom: 1px solid $gray200;
+  box-shadow: $shadow-sm;
+
+
+  &__brand {
+  @include text-display;
   color: var(--color-primary);
+}
 }

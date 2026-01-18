@@ -24,3 +24,8 @@ $font-base:
   system-ui,
   -apple-system,
   sans-serif;
+
+  //shadows
+$shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+$shadow-md: 0 6px 16px rgba(0, 0, 0, 0.12);
+$shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.18);
