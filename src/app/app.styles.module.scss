@@ -1,9 +1,8 @@
-@use './styles/mixins' as *;
-@use './styles/abstract/variables' as *;
-@use './styles/abstract/theme' as *;
+@use "./styles/mixins" as *;
+@use "./styles/abstract/variables" as *;
+@use "./styles/abstract/theme" as *;
 
-.header{
-
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,9 +10,80 @@
   border-bottom: 1px solid $gray200;
   box-shadow: $shadow-sm;
 
-
   &__brand {
-  @include text-display;
-  color: var(--color-primary);
+    @include text-display;
+    color: var(--color-primary);
+  }
 }
+
+.main {
+  padding: 1.875rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  &__section-default {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__title {
+      @include text-headline;
+      color: var(--color-title-alternative);
+    }
+
+    &__paragraph {
+      @include text-body-large;
+
+      &__bold {
+        color: var(--color-primary);
+        font-weight: 600;
+      }
+    }
+
+    &__subtitle {
+      @include text-subheadline;
+      color: var(--color-title-alternative);
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.3125rem;
+
+      &__line {
+        display: flex;
+        gap: 0.3125rem;
+        align-items: center;
+      }
+    }
+
+    &__column-subject {
+      display: flex;
+      flex-direction: column;
+
+      &__line-subject {
+        width: 100%;
+        display: flex;
+        gap: 0.3125rem;
+      }
+    }
+
+    &__title-icon {
+      display: flex;
+      gap: 5px;
+
+      &__icon {
+        color: var(--color-title-alternative);
+      }
+
+      &__title {
+        @include text-headline;
+        color: var(--color-title-alternative);
+      }
+    }
+  }
 }
