@@ -1,0 +1,118 @@
+/* ========================= DEFAULT (INDIGO) ========================= */
+:root {
+    --color-background: #ffffff;
+    --color-text: #000000;
+
+  --color-primary: #4966cc;
+  --color-secondary: #e6ecff;
+  --color-border: #374c99;
+  --color-title: #374c99;
+} /* ========================= DARK GREEN ========================= */
+[data-theme='dark-green'] {
+  --color-primary: #0f4604;
+  --color-secondary: #93ac8e;
+  --color-border: #0d3c03;
+  --color-title: #051901;
+} /* ========================= LIGHT GREEN ========================= */
+[data-theme='light-green'] {
+  --color-primary: #499c45;
+  --color-secondary: #add2ab;
+  --color-border: #3e853b;
+  --color-title: #1a3718;
+} /* ========================= CIAN ========================= */
+[data-theme='cian'] {
+  --color-primary: #3bcfb1;
+  --color-secondary: #a7e9dc;
+  --color-border: #32b096;
+  --color-title: #15483e;
+} /* ========================= TURQUOISE ========================= */
+[data-theme='turquoise'] {
+  --color-primary: #3bafcf;
+  --color-secondary: #a7dbe9;
+  --color-border: #3295b0;
+  --color-title: #153d48;
+} /* ========================= LIGHT BLUE ========================= */
+[data-theme='light-blue'] {
+  --color-primary: #006acd;
+  --color-secondary: #8cbce9;
+  --color-border: #005aae;
+  --color-title: #001b33;
+} /* ========================= DARK BLUE ========================= */
+[data-theme='dark-blue'] {
+  --color-primary: #0736ad;
+  --color-secondary: #8fa5da;
+  --color-border: #062e93;
+  --color-title: #02133d;
+} /* ========================= PURPLE ========================= */
+[data-theme='purple'] {
+  --color-primary: #5c26ff;
+  --color-secondary: #b69dff;
+  --color-border: #4e20d9;
+  --color-title: #200d59;
+} /* ========================= LAVANDER ========================= */
+[data-theme='lavander'] {
+  --color-primary: #bba6e7;
+  --color-secondary: #d0c1ee;
+  --color-border: #9776da;
+  --color-title: #6e569f;
+} /* ========================= LIGHT PINK ========================= */
+[data-theme='light-pink'] {
+  --color-primary: #d776b0;
+  --color-secondary: #edc1db;
+  --color-border: #b76496;
+  --color-title: #9d5680;
+} /* ========================= PINK ========================= */
+[data-theme='pink'] {
+  --color-primary: #cf3b94;
+  --color-secondary: #e9a7cf;
+  --color-border: #b0327e;
+  --color-title: #972b6c;
+} /* ========================= DARK PINK ========================= */
+[data-theme='dark-pink'] {
+  --color-primary: #a5126b;
+  --color-secondary: #d794bc;
+  --color-border: #8c0f5b;
+  --color-title: #780d4e;
+} /* ========================= RED ========================= */
+[data-theme='red'] {
+  --color-primary: #890101;
+  --color-secondary: #ca8d8d;
+  --color-border: #740101;
+  --color-title: #640101;
+} /* ========================= BEIGE ========================= */
+[data-theme='beige'] {
+  --color-primary: #d8b262;
+  --color-secondary: #eddcb8;
+  --color-border: #b89753;
+  --color-title: #9e8248;
+} /* ========================= YELLOW ========================= */
+[data-theme='yellow'] {
+  --color-primary: #ea9306;
+  --color-secondary: #f6ce8f;
+  --color-border: #ab6b04;
+  --color-title: #ab6b04;
+} /* ========================= ORANGE ========================= */
+[data-theme='orange'] {
+  --color-primary: #e35204;
+  --color-secondary: #f2b18e;
+  --color-border: #c14603;
+  --color-title: #a63c03;
+} /* ========================= BROWN ========================= */
+[data-theme='brown'] {
+  --color-primary: #893b0a;
+  --color-secondary: #caa791;
+  --color-border: #743209;
+  --color-title: #642b07;
+} /* ========================= COLD BROWN ========================= */
+[data-theme='cold-brown'] {
+  --color-primary: #68432f;
+  --color-secondary: #bbaaa1;
+  --color-border: #4c3122;
+  --color-title: #4c3122;
+} /* ========================= DARK BROWN ========================= */
+[data-theme='dark-brown'] {
+  --color-primary: #582b13;
+  --color-secondary: #b4a095;
+  --color-border: #4b2510;
+  --color-title: #4b2510;
+}

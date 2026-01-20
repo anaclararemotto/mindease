@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+/* ========================= SEMANTIC TOKENS ========================= */
+$primary: var(--color-primary);
+$background: var(--color-background);
+$text: var(--color-text);
+$border: var(--color-border);
+$title: var(--color-title);
+
+$white: #ffffff;
+$gray100: #eeeeee;
+$gray200: #dcdcdc;
+$gray300: #8f8f8f;
+$gray400: #727272;
+$gray500: #565656;
+$gray600: #323232;
+$black: #000000;
+
+$success: #027a01;
+$error: #7a0101;
+$warning: #bdb603;
+
+$font-base: 'Poppins', system-ui, -apple-system, sans-serif;
+
+//shadows
+$shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
+$shadow-md: 0 6px 16px rgba(0, 0, 0, 0.12);
+$shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.18);
