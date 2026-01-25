@@ -1,0 +1,22 @@
+<a
+  *ngIf="to; else nativeButton"
+  [routerLink]="to"
+  [ngClass]="classes"
+>
+  <span>{{ label }}</span>
+
+  <i *ngIf="icon" class="lucide" [attr.data-lucide]="icon"></i>
+</a>
+
+<ng-template #nativeButton>
+  <button
+    type="button"
+    [disabled]="disabled"
+    [ngClass]="classes"
+    (click)="onClick()"
+  >
+    <span>{{ label }}</span>
+
+    <i *ngIf="icon" class="lucide" [attr.data-lucide]="icon"></i>
+  </button>
+</ng-template>
