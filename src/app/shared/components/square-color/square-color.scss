@@ -1,0 +1,8 @@
+@use '../../../../styles/index.scss' as *;
+
+.square {
+  background-color: var(--card-bg, $background);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+}

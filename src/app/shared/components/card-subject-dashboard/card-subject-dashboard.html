@@ -1,0 +1,12 @@
+<div
+  class="card"
+  [style.--card-bg]="cardBg"
+>
+  <div class="card__icon" *ngIf="icon">
+    <lucide-icon [name]="icon" [size]="24"></lucide-icon>
+  </div>
+
+  <div class="card__line"></div>
+
+  <p class="card__label">{{ label }}</p>
+</div>
